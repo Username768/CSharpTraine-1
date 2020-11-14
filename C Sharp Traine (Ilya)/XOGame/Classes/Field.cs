@@ -50,16 +50,28 @@ class Field
     {
         this.Rows = rows;
         this.Columns = columns;
-
-
-        // this.cells = new List<List<Cell>>();
-        // for (int i = 0; i < rows; i++){
-        // 	List<Cell> row = new List<Cell>();
-        // 	for(int j=0;j<columns;j++)
-        // 			row.Add(new Cell());
-        //     this.cells.Add(row);
-        // }
     }
+
+		public Cell this[int row, int column]	
+    {
+        get
+        {
+            if 
+						(
+						row >= 0 && row < this.Rows && 
+						column >= 0 && column < this.Columns
+						)
+            	return this.cells[row][column];
+        			throw new Exception("Некорректные значения строки/столбца!");
+        }
+        set
+        {
+            this[row,column];
+        		this.cells[row][column] = value;
+        }
+    }
+
+
     public Cell Get(int row, int column)
     {
         if (row >= 0 && row < this.cells.Count && column >= 0 && this.cells[0].Count > 0 && column < this.cells[0].Count)
