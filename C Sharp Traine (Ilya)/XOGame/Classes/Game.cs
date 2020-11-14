@@ -10,16 +10,17 @@ class Game
     }
 		public Game(int rows, int columns){
 			if(rows!=columns)
-				throw new Exception("Некорректный размер поля");
+				throw new Exception("Некорректный размер поля");				
 			this.isStarted=false;
 			this.field= new Field(rows,columns);
 		}
   
     public bool CheckWin() 
     {
-      for (int i=0; i<field.rows; i++)
-        for (int j=0; j<field.columns; j++)
-          if field.Get(i, j) 
+		//for (int i=0; i<field.rows; i++)
+		//  for (int j=0; j<field.columns; j++)
+		//    if field.Get(i, j) 
+		return true;
     }
 
     public void Start()

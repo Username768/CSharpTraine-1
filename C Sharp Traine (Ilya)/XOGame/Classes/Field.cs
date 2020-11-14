@@ -4,7 +4,9 @@ using System.Collections.Generic;
 class Field
 {
     private List<List<Cell>> cells;
-    public int rows
+    private int rows;
+    private int columns;
+    public int Rows
     {
         set
         {
@@ -20,11 +22,11 @@ class Field
         }
     }
 
-    public int columns
+    public int Columns
     {
         set
         {
-            if (cells == null)
+            if (cells != null)
             {
                 columns = value;
                 for (int i = 0; i < this.rows; i++)
@@ -46,8 +48,8 @@ class Field
     }
     public Field(int rows, int columns)
     {
-        this.rows = rows;
-        this.columns = columns;
+        this.Rows = rows;
+        this.Columns = columns;
 
 
         // this.cells = new List<List<Cell>>();
@@ -72,12 +74,13 @@ class Field
     public override string ToString()
     {
         string result = "";
-        for (int i = 0; i < this.cells.Count; i++)
-        {
-            for (int j = 0; j < this.cells[i].Count; j++)
-                result += this.cells[i][j] + " ";
-            result += '\n';
-        }
+        if (this.cells!=null)
+            for (int i = 0; i < this.cells.Count; i++)
+            {
+                for (int j = 0; j < this.cells[i].Count; j++)
+                    result += this.cells[i][j] + " ";
+                result += '\n';
+            }
         return result;
     }
 }
