@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,17 +8,17 @@ namespace XOGame
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            try
-            {
-                Game game = new Game();
-                game.Start();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-            }
-        }
+        // static void Main(string[] args)
+        // {
+        //     try
+        //     {
+        //         Game game = new Game();
+        //         game.Start();
+        //     }
+        //     catch (Exception ex)
+        //     {
+        //         Console.WriteLine(ex);
+        //     }
+        // }
     }
 }
