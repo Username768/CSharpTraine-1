@@ -18,8 +18,10 @@ class Game
     public bool CheckWin() 
     {
       for (int i=0; i<field.rows; i++)
-        for (int j=0; j<field.columns; j++)
-          if field.Get(i, j) 
+        for (int j=0; j<field.columns; j++){
+					if field.Get(i, j).value
+				}
+          
     }
 
     public void Start()
