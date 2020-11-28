@@ -11,4 +11,14 @@ static class IO{
 		else
 			return str.Substring(index+1);		
 	}
+	public static int GetInt(String message=""){
+		try{
+ 			return Convert.ToInt32(GetLine(message));
+		}
+		catch(Exception ex){
+			Console.WriteLine("Введено некорректное значение! Повторите попытку!");
+			return GetInt(message);
+		}
+		
+	}
 }

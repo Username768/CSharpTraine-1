@@ -66,7 +66,7 @@ class Field
         }
         set
         {
-            this[row,column];
+           // this[row,column];
         		this.cells[row][column] = value;
         }
     }
