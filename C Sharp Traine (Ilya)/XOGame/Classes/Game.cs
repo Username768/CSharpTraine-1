@@ -19,17 +19,14 @@ class Game
         this.isStarted = false;
         this.field = new Field(rows, columns);
     }
-
-
-
     public bool CheckWin()
     {
-				// for (int i = 0; i < field.Rows; i++){
-				// 	int counter=0;
-					
-				// 	for (int j = 0; j < field.Columns; j++)
+        // for (int i = 0; i < field.Rows; i++){
+        // 	int counter=0;
 
-				// }
+        // 	for (int j = 0; j < field.Columns; j++)
+
+        // }
 
 
         int WinCounter = 0;
@@ -73,10 +70,12 @@ class Game
                 }
             }
         }
-for (int k = 0; k < field.Columns; k++) {
-int i = 0;
-WinCounter = 0;
-for (int j = k; j < field.Columns; j++) {
+        for (int k = 0; k < field.Columns; k++)
+        {
+            int i = 0;
+            WinCounter = 0;
+            for (int j = k; j < field.Columns; j++)
+            {
                 if (Flag == field[i, j].value && Flag != CellType.empty)
                 {
                     WinCounter++;
@@ -91,13 +90,15 @@ for (int j = k; j < field.Columns; j++) {
                 }
                 i++;
             }
- 
- 
-}
-for (int k = 0; k < field.Columns; k++) {
-int i = 0;
-WinCounter = 0;
-for (int j = k; j < field.Columns; j++) {
+
+
+        }
+        for (int k = 0; k < field.Columns; k++)
+        {
+            int i = 0;
+            WinCounter = 0;
+            for (int j = k; j < field.Columns; j++)
+            {
                 if (Flag == field[j, i].value && Flag != CellType.empty)
                 {
                     WinCounter++;
@@ -112,13 +113,15 @@ for (int j = k; j < field.Columns; j++) {
                 }
                 i++;
             }
- 
- 
-}
-for (int k = field.Columns - 1; k >=0; k--) {
-int i = 0;
-WinCounter = 0;
-for (int j = k; j >= 0; j--) {
+
+
+        }
+        for (int k = field.Columns - 1; k >= 0; k--)
+        {
+            int i = 0;
+            WinCounter = 0;
+            for (int j = k; j >= 0; j--)
+            {
                 if (Flag == field[i, j].value && Flag != CellType.empty)
                 {
                     WinCounter++;
@@ -133,14 +136,16 @@ for (int j = k; j >= 0; j--) {
                 }
                 i++;
             }
- 
- 
-}
 
-for (int k = field.Columns - 1; k >=0; k--) {
-int i = 0;
-WinCounter = 0;
-for (int j = k; j >= 0; j--) {
+
+        }
+
+        for (int k = field.Columns - 1; k >= 0; k--)
+        {
+            int i = 0;
+            WinCounter = 0;
+            for (int j = k; j >= 0; j--)
+            {
                 if (Flag == field[j, i].value && Flag != CellType.empty)
                 {
                     WinCounter++;
@@ -155,13 +160,12 @@ for (int j = k; j >= 0; j--) {
                 }
                 i++;
             }
- 
- 
-}
 
-     return false; 
-    } 
 
+        }
+
+        return false;
+    }
     public void Start()
     {
         this.isStarted = true;
@@ -199,7 +203,7 @@ for (int j = k; j >= 0; j--) {
                 Console.WriteLine(ex);
             }
         }
-				Console.WriteLine(field);
+        Console.WriteLine(field);
 
 
 
