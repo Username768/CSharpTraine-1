@@ -1,0 +1,10 @@
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame WinForms\bin\Debug\XOGame WinForms.exe.config
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame WinForms\bin\Debug\XOGame WinForms.exe
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame WinForms\bin\Debug\XOGame WinForms.pdb
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame WinForms\obj\Debug\XOGame WinForms.csprojAssemblyReference.cache
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame WinForms\obj\Debug\XOGame_WinForms.Form1.resources
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame WinForms\obj\Debug\XOGame_WinForms.Properties.Resources.resources
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame WinForms\obj\Debug\XOGame WinForms.csproj.GenerateResource.cache
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame WinForms\obj\Debug\XOGame WinForms.csproj.CoreCompileInputs.cache
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame WinForms\obj\Debug\XOGame WinForms.exe
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame WinForms\obj\Debug\XOGame WinForms.pdb

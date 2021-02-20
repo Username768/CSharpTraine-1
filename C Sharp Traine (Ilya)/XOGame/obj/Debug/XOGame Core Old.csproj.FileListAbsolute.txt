@@ -1,0 +1,7 @@
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame\bin\Debug\XOGame.exe.config
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame\bin\Debug\XOGame.exe
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame\bin\Debug\XOGame.pdb
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame\obj\Debug\XOGame Core Old.csprojAssemblyReference.cache
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame\obj\Debug\XOGame Core Old.csproj.CoreCompileInputs.cache
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame\obj\Debug\XOGame.exe
+C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGame\obj\Debug\XOGame.pdb

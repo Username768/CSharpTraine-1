@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOGame", "XOGame\XOGame.csproj", "{3FBF1057-DC65-43C8-AF58-C5340CC23C23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOGame Core Old", "XOGame\XOGame Core Old.csproj", "{3FBF1057-DC65-43C8-AF58-C5340CC23C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOTests", "Tests\XOTests.csproj", "{375E37EE-DE44-4445-80A6-6083A65410E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOGame Console", "XOGameConsole\XOGame Console.csproj", "{92FFFF19-D96E-4DAE-BAF3-28E461449911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOGame WinForms", "XOGame WinForms\XOGame WinForms.csproj", "{290DCCB9-9B66-4F7F-AB96-868244E8372D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOGame Core", "XOGame Library\XOGame Core.csproj", "{DD79FBA1-B12E-4135-A3D6-7836D7B97FD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{3FBF1057-DC65-43C8-AF58-C5340CC23C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FBF1057-DC65-43C8-AF58-C5340CC23C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FBF1057-DC65-43C8-AF58-C5340CC23C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375E37EE-DE44-4445-80A6-6083A65410E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375E37EE-DE44-4445-80A6-6083A65410E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375E37EE-DE44-4445-80A6-6083A65410E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375E37EE-DE44-4445-80A6-6083A65410E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FFFF19-D96E-4DAE-BAF3-28E461449911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FFFF19-D96E-4DAE-BAF3-28E461449911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FFFF19-D96E-4DAE-BAF3-28E461449911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FFFF19-D96E-4DAE-BAF3-28E461449911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290DCCB9-9B66-4F7F-AB96-868244E8372D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290DCCB9-9B66-4F7F-AB96-868244E8372D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290DCCB9-9B66-4F7F-AB96-868244E8372D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290DCCB9-9B66-4F7F-AB96-868244E8372D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD79FBA1-B12E-4135-A3D6-7836D7B97FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD79FBA1-B12E-4135-A3D6-7836D7B97FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD79FBA1-B12E-4135-A3D6-7836D7B97FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD79FBA1-B12E-4135-A3D6-7836D7B97FD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

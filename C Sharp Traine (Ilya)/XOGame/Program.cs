@@ -1,24 +1,30 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace XOGame
 {
     class Program
     {
-        // static void Main(string[] args)
-        // {
-        //     try
-        //     {
-        //         Game game = new Game();
-        //         game.Start();
-        //     }
-        //     catch (Exception ex)
-        //     {
-        //         Console.WriteLine(ex);
-        //     }
-        // }
+        public static void Main(string[] args)
+        {
+            try
+            {
+                int fieldsize = ConsoleUI.GetInt("Какого размера должно быть поле?");
+                int itemsInRow = ConsoleUI.GetInt("До скольки в ряд играть?");
+                Game game = new Game(fieldsize, fieldsize, itemsInRow);
+                game.Start();
+                Console.ReadLine();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+
+        }
+
     }
 }
+
+
+
+
+
