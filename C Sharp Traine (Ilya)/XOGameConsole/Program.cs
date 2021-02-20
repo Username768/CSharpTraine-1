@@ -11,7 +11,10 @@ namespace XOGameConsole
     {
         static void Main(string[] args)
         {
-            Core gameCore = new Core(new UI());
+            UI ui = new UI();
+            int size = ui.GetInt("Введите размер поля");
+            int itemsInRow = ui.GetInt("Введите количество фигур в ряд");
+            Core gameCore = new Core(ui,size,size, itemsInRow);
             gameCore.Start();
         }
     }

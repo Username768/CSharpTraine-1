@@ -8,3 +8,13 @@ C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGameConsole\
 C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGameConsole\obj\Debug\XOGame Console.csproj.CopyComplete
 C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGameConsole\obj\Debug\XOGameConsole.exe
 C:\Users\USERNAME\source\repos\CSharpTraine\C Sharp Traine (Ilya)\XOGameConsole\obj\Debug\XOGameConsole.pdb
+C:\Users\USERNAME\Source\Repos\CSharpTraine-1\C Sharp Traine (Ilya)\XOGameConsole\bin\Debug\XOGameConsole.exe.config
+C:\Users\USERNAME\Source\Repos\CSharpTraine-1\C Sharp Traine (Ilya)\XOGameConsole\bin\Debug\XOGameConsole.exe
+C:\Users\USERNAME\Source\Repos\CSharpTraine-1\C Sharp Traine (Ilya)\XOGameConsole\bin\Debug\XOGameConsole.pdb
+C:\Users\USERNAME\Source\Repos\CSharpTraine-1\C Sharp Traine (Ilya)\XOGameConsole\bin\Debug\XOGame Library.dll
+C:\Users\USERNAME\Source\Repos\CSharpTraine-1\C Sharp Traine (Ilya)\XOGameConsole\bin\Debug\XOGame Library.pdb
+C:\Users\USERNAME\Source\Repos\CSharpTraine-1\C Sharp Traine (Ilya)\XOGameConsole\obj\Debug\XOGame Console.csprojAssemblyReference.cache
+C:\Users\USERNAME\Source\Repos\CSharpTraine-1\C Sharp Traine (Ilya)\XOGameConsole\obj\Debug\XOGame Console.csproj.CoreCompileInputs.cache
+C:\Users\USERNAME\Source\Repos\CSharpTraine-1\C Sharp Traine (Ilya)\XOGameConsole\obj\Debug\XOGame Console.csproj.CopyComplete
+C:\Users\USERNAME\Source\Repos\CSharpTraine-1\C Sharp Traine (Ilya)\XOGameConsole\obj\Debug\XOGameConsole.exe
+C:\Users\USERNAME\Source\Repos\CSharpTraine-1\C Sharp Traine (Ilya)\XOGameConsole\obj\Debug\XOGameConsole.pdb

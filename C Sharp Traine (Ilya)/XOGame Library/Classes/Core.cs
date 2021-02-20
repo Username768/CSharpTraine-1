@@ -1,5 +1,4 @@
 ﻿using System;
-//ТЕСТ СОХРАНЕНИЯ НА GITHUB
 namespace XOGameCore
 {
     public enum GameState
@@ -58,7 +57,7 @@ namespace XOGameCore
         {
             int WinCounter = 0;
             CellType Flag = CellType.cross;
-                       
+
             for (int i = 0; i < field.Rows; i++)
             {
                 WinCounter = 0;
@@ -245,57 +244,57 @@ namespace XOGameCore
                 else
                     return GameState.run;
             }
-            
+
 
         }
-            public void MakeStep(int x, int y)
+        public void MakeStep(int x, int y)
+        {
+            if (field[x, y].value == CellType.empty)
             {
-                if (field[x, y].value == CellType.empty)
-                {
-                    field.Set(x, y, new Cell((CellType)this.currentPlayerIndex));
-                    this.currentGameState = CheckState();
-                    this.currentPlayerIndex = (this.currentPlayerIndex + 1) % 2;
-                }
-                else
-                    throw new Exception("Поле занято");
+                field.Set(x, y, new Cell((CellType)this.currentPlayerIndex));
+                this.currentGameState = CheckState();
+                this.currentPlayerIndex = (this.currentPlayerIndex + 1) % 2;
             }
-            public void Start()
+            else
+                throw new Exception("Поле занято");
+        }
+        public void Start()
+        {
+            this.currentGameState = GameState.run;
+            this.currentPlayerIndex = 0;
+            while (this.currentGameState == GameState.run)
             {
-                this.currentGameState = GameState.run;
-                this.currentPlayerIndex = 0;
-                while (this.currentGameState == GameState.run)
-                {
-                    this.io.ClearUI();
-                    this.io.PrintField(field);
-                    try
-                    {
-                        if (this.currentPlayerIndex == 0)
-                            this.io.PrintMessage("Ходит Х");
-                        else
-                            this.io.PrintMessage("Ходит O");
-                        this.io.PrintMessage("Введите координаты клетки");
-                        int[] coords = this.io.GetCoords();
-                        this.MakeStep(coords[0] - 1, coords[1] - 1);
-
-                    }
-
-                    catch (Exception ex)
-                    {
-                        this.io.PrintError(ex);
-                        this.io.GetLine("Для продолжения нажмите enter");
-                    }
-                }
-
                 this.io.ClearUI();
                 this.io.PrintField(field);
-                if (this.currentGameState == GameState.draw)
-                    this.io.PrintMessage("Игра закончилась ничьей");
-                if (this.currentGameState == GameState.winX)
-                    this.io.PrintMessage("Победили крестики");
-                if (this.currentGameState == GameState.winO)
-                    this.io.PrintMessage("Победили нолики");
-                this.io.GetLine("Для продолжения нажмите enter");
+                try
+                {
+                    if (this.currentPlayerIndex == 0)
+                        this.io.PrintMessage("Ходит Х");
+                    else
+                        this.io.PrintMessage("Ходит O");
+                    this.io.PrintMessage("Введите координаты клетки");
+                    int[] coords = this.io.GetCoords();
+                    this.MakeStep(coords[0] - 1, coords[1] - 1);
+
+                }
+
+                catch (Exception ex)
+                {
+                    this.io.PrintError(ex);
+                    this.io.GetLine("Для продолжения нажмите enter");
+                }
             }
+
+            this.io.ClearUI();
+            this.io.PrintField(field);
+            if (this.currentGameState == GameState.draw)
+                this.io.PrintMessage("Игра закончилась ничьей");
+            if (this.currentGameState == GameState.winX)
+                this.io.PrintMessage("Победили крестики");
+            if (this.currentGameState == GameState.winO)
+                this.io.PrintMessage("Победили нолики");
+            this.io.GetLine("Для продолжения нажмите enter");
         }
     }
+}
 
