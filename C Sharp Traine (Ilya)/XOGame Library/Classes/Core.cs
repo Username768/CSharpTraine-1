@@ -278,6 +278,7 @@ namespace XOGameCore
                         this.MakeStep(coords[0] - 1, coords[1] - 1);
 
                     }
+
                     catch (Exception ex)
                     {
                         this.io.PrintError(ex);
