@@ -1,5 +1,5 @@
 ﻿using System;
-
+//ТЕСТ СОХРАНЕНИЯ НА GITHUB
 namespace XOGameCore
 {
     public enum GameState
